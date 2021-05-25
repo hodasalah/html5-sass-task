@@ -1,0 +1,7 @@
+/*mixins */
+@mixin center($align,$justify , $dir) {
+	display: flex;
+	flex-direction: $dir;
+	align-items: $align;
+	justify-content: $justify;
+}
